@@ -1,0 +1,9 @@
+create database memberLogin;
+use memberlogin;
+create table loginuser(
+	id int auto_increment primary key,
+	userName varchar(10),
+	pw varchar(10)
+
+);
+insert into loginuser (userName,pw) values ("sam","123456");
